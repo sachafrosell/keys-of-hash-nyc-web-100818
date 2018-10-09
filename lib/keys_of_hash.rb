@@ -1,13 +1,13 @@
 class Hash
-  def keys_of(x, *arguments)
-  array = []
-  arguments.each do |k, v|
-    if v == x
-      array.push(k)
+  def keys_of(*arguments)
+    array = []
+    arguments.each do |argument|
+      if argument = arguments 
+        array.push(argument)
+      end 
     end 
   end 
-  array
-end 
+  
 end
 
 {"sugar glider"=>"Australia",
