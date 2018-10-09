@@ -1,9 +1,9 @@
 class Hash
   def keys_of(x, *arguments)
   array = []
-  arguments.each do |argument|
+  arguments.each do |k, v|
     if v == x
-      array.push(argument)
+      array.push(k)
     end 
   end 
   array
