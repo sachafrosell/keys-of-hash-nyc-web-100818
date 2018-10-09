@@ -6,6 +6,7 @@ class Hash
       array.push(k)
     end 
   end 
+  array
 end 
 end
 
